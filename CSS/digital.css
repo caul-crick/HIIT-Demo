@@ -1,0 +1,352 @@
+@font-face{
+    src: url(/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf);
+    font-family: iconic;
+}
+@font-face{
+    src: url(/fonts/JosefinSans/JosefinSans-Bold.ttf);
+    font-family: jose;
+}
+@font-face{
+    src: url(/fonts/montserrat/Montserrat-Regular.ttf);
+    font-family: mont;
+}
+@font-face{
+    src: url(/fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+    font-family: sanspro;
+}
+@font-face{
+    src: url(/fonts/firasans/FiraSans-Bold.ttf);
+    font-family: firasans;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: aria;
+    background: none;
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading h1{
+    text-align: center;
+    font-family: mont;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: black;
+}
+
+.digital{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-right: 20px;
+    float: left;
+}
+
+.nav{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 2;
+        margin-right: 50px;
+        margin-top: 10px;
+        list-style: none;
+}
+ .tab-content{
+    width: 775px;
+    float: right;
+    margin-right: 5px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.tab-content > .active {
+    display: block;
+    margin-right: 51px;
+}
+
+.fa-plus{
+    margin-right: 8px;
+}
+
+.accordion{
+    margin-right: 0%;
+    margin-bottom: 10px;
+}
+
+.accordion > .card > .card-header {
+    border-radius: 0;
+    margin-bottom: 0px;
+    padding: 0.25px;
+}
+
+.card{
+    padding: 0px;
+}
+
+.list li{
+    list-style: none;
+    font-family: sanspro;
+    font-size: 0.9rem;
+    font-style: bold;
+}
+
+.card-body p{
+    text-align: left;
+    font-family: sanspro;
+}
+
+.btn{
+    text-decoration: none;
+    font-family: firasans;
+    margin-bottom: 10px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: firasans;
+}
+
+.table th{
+    font-family: firasans;
+    font-style: bold;
+}
+
+.table td{
+    font-family: firasans;
+    font-style: bold;
+}
+
+.tab-pane p{
+    text-align: left;
+    font-family: sanspro;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.review{
+    background-color: rgb(0, 123, 255);
+    margin-bottom: 10px;
+}
+
+.blockquote p{
+    color: white;
+}
+
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: white;
+    background-color: none;
+}
+
+footer{
+    background-color: none;
+}
+
+.asterisk{
+    color: #ff0000;
+    font-weight: 400;
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea.form-control {
+    height: 150px;
+    width: 400px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-family: firasans;
+}
+
+.form-control{
+    font-family: sanspro;
+}
+
+cite{
+    font-family: jose;
+}
+
+@media (min-width: 576px){
+.navigation {
+    max-width: inherit;
+    padding-right: 0;
+    padding-left: 0;
+}
+.heading{
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.digital{
+    width: 550px;
+    height: 200px;
+    display:block;
+    padding-right: 30px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.nav{
+    width: 500px;
+    margin-left:25px;
+}
+.tab-content{
+    width: 500px;
+}
+.tab-pane{
+    margin-top: 12px;
+}
+.tab-content p{
+    text-align: justify;
+    font-size: 1rem;
+}
+.tab-content li{
+    font-size: 1rem;
+}
+}
+
+@media (min-width: 768px){
+.digital{
+    width:250px;
+    height: 150px;
+}
+.navigation {
+    max-width: inherit;
+    padding-left: 0;
+    padding-right: 0;
+}
+ul.navbar-nav.right{
+    margin-right: 20px;
+}
+.navbar-brand{
+    width: 100px;
+    padding-left: 0;
+}
+.heading{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.4rem;
+}
+.nav{
+    font-size: 15px;
+    width: 480px;
+}
+.tab-content{
+    width: 480px;
+
+}
+.tab-content p{
+    text-align: justify;
+    font-size: 0.5rem;
+}
+.tab-content li{
+    font-size: 0.3rem
+}
+.tab-pane{
+    margin-top: 12px;
+}
+}
+@media (min-width:992px){
+    .digital{
+        width: 350px;
+        height: 200px;
+    }
+    .navigation {
+        max-width: inherit;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    ul.navbar-nav.right{
+        margin-right: 25px;
+    }
+    .navbar-brand{
+        width: 100px;
+        padding-left: 0;
+    }
+    .heading{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 1.4rem;
+    }
+    .nav{
+        font-size: 18px;
+        width: 550px;
+    }
+    .tab-content{
+        width: 570px;
+        margin-right: 20px;
+    
+    }
+    .tab-content p{
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+    .tab-content li{
+        font-size: 0.8rem
+    }
+    .tab-pane{
+        margin-top: 12px;
+    }
+}
+@media (min-width: 1200px){
+    img.digital{
+        width: 400px;
+        height: 200px;
+
+    }
+    .navigation {
+        max-width: inherit;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    ul.navbar-nav.right{
+        margin-right: 25px;
+    }
+    .navbar-brand{
+        width: 100px;
+        padding-left: 0;
+    }
+    .heading{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 1.4rem;
+    }
+    .nav{
+        font-size: 25px;
+        width: 720px;
+    }
+    .tab-content{
+        width: 720px;
+        margin-right: 40px;
+    
+    }
+    .tab-content p{
+        text-align: justify;
+        font-size: 1rem;
+    }
+    .tab-content li{
+        font-size: 1rem
+    }
+    .tab-pane{
+        margin-top: 12px;
+    }
+}
+

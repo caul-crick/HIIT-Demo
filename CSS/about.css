@@ -1,0 +1,130 @@
+@font-face{
+    src: url(/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf);
+    font-family: iconic;
+}
+@font-face{
+    src: url(/fonts/JosefinSans/JosefinSans-Bold.ttf);
+    font-family: jose;
+}
+@font-face{
+    src: url(/fonts/montserrat/Montserrat-Regular.ttf);
+    font-family: mont;
+}
+@font-face{
+    src: url(/fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+    font-family: sanspro;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1.display-6{
+    font-weight: bold;
+    font-family: mont;
+    font-size: 25px;
+    margin-top: -20px;
+}
+.btn-primary {
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 0;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    font-family: jose;
+    font-weight: bold;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.row-cols-4{
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.col h4{
+    text-align: center;
+    font-weight: bold;
+    font-family: jose;
+    padding-top: 15px;
+}
+.col p{
+    text-align: justify;
+    font-family: sanspro;
+
+}
+.card-img-top{
+    padding: 0;
+    width: auto;
+    height: 300px;
+}
+.card-title h5{
+    font-family: sanspro;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: jusitfy;
+}
+div.card{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.foot{
+    background: black;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+.foot-top{
+    float: left;
+    margin-left: 40px;
+    width: 300px;
+    height: 300px;
+}
+svg.svg-inline--fa.fa-map-marker-alt.fa-w-12{
+    color: red;
+    margin-left: 150px;
+}
+.foot-text p{
+    color: white;
+    font-family: sanspro;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1em;
+    
+}
+hr{
+    border: 1px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.foot-side{
+    float: left;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+}
+.foot-center{
+    float: right;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.foot-center img{
+    width: 25px;
+    height: 25px;
+    left: 100px;
+    margin-left: 35px;
+}
+
+@media (min-width: 576px){
+    .navigation{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    div.row.row-cols-4 {
+        margin-right: 15px;
+        margin-left: -15px;
+    }
+}
